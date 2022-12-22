@@ -22,7 +22,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <sonar.organization>niravbhatt2006</sonar.organization>
+    <sonar.organization>Harikrushn96</sonar.organization>
 //    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <sonar.host.url>https://http://192.168.33.16:9000</sonar.host.url>
   </properties>
