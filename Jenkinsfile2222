@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-       maven 'maven 3.8.6'
+       maven 'Maven'
     }
     stages {
         stage('Hello') {
@@ -18,7 +18,7 @@ pipeline {
         stage('sonarqube checks') {
             steps {
                 script {
-                withSonarQubeEnv(installationName: 'sonarqube-2', credentialsId: 'NewSonarToken2') {
+                withSonarQubeEnv(installationName: 'SonarQube', credentialsId: 'sonartoken') {
                  sh 'mvn clean package sonar:sonar'
                  }
                  
